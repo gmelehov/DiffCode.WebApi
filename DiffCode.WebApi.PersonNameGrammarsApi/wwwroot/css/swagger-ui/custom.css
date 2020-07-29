@@ -1,0 +1,89 @@
+﻿
+
+/* Контейнер с названиями HTTP-метода, пути к методу и описания метода */
+.swagger-ui .opblock .opblock-summary {
+  display: grid;
+  grid-template-columns: auto minmax(auto, 300px) 1fr;
+}
+
+
+/* Путь к методу */
+.swagger-ui .opblock .opblock-summary-operation-id, .swagger-ui .opblock .opblock-summary-path, .swagger-ui .opblock .opblock-summary-path__deprecated {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+/* Название HTTP-метода */
+.swagger-ui .opblock .opblock-summary-method {
+  font-size: 16px;
+  font-weight: 500;
+  min-width: 65px;
+  padding: 6px;
+  border-radius: 2px;
+}
+
+
+/* Параграф Markdown */
+.swagger-ui .markdown p, .swagger-ui .markdown pre, .swagger-ui .renderedMarkdown p, .swagger-ui .renderedMarkdown pre {
+  margin: 0em auto 0.5em;
+}
+
+
+/* Поле для ввода значения параметра */
+.swagger-ui .parameters-col_description input[type=text] {
+  max-width: unset;
+}
+
+
+/* Текст примера/схемы (в черных окошках) */
+.swagger-ui .opblock-body pre.microlight {
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+
+/* Текст кода в содержимом <remarks></remarks> */
+.swagger-ui .markdown code, .swagger-ui .renderedMarkdown code {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+
+.swagger-ui table tbody tr:not(:last-of-type) td {
+  padding: 10px 0 35px;
+}
+
+
+
+.swagger-ui .response-col_links {
+  text-align: right;
+}
+
+
+.swagger-ui table tbody tr td:first-of-type {
+  padding: 10px 20px 10px 0;
+}
+
+
+.swagger-ui input[type=email], .swagger-ui input[type=file], .swagger-ui input[type=password], .swagger-ui input[type=search], .swagger-ui input[type=text], .swagger-ui textarea {
+  padding: 6px 8px;
+  margin: 2px 0;
+  border-radius: 2px !important;
+}
+
+  .swagger-ui textarea {
+    border-radius: 2px !important;
+  }
+
+
+  .swagger-ui .opblock {
+    border-radius: 2px;
+  }
+
+
+
+.swagger-ui .response-col_status {
+  font-size: 16px;
+}
